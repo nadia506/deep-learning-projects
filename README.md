@@ -14,4 +14,8 @@ For this project, I used synthetic datasets which consists of GRE scores, GPA, t
 
 [Source Code](https://github.com/nadia506/deep-learning-projects/tree/main/Image-Classification-Clothing)
 
-In this project, I developed a Convoluional Neural network to classify gray-scale images of clothings. I used the open dataset provided by keras. I used convolution layers to extract features from the images and pooling layers to retain important information.
+In this project, I developed a Convoluional Neural network to classify gray-scale images of clothings. I used the open dataset that are already pre-processed provided by keras. I used convolution layers to extract features from the images and pooling layers to retain important information.
+
+## Project3.
+
+This project features a model that classifies images into cat vs. dogs on google collab. I downloaded data from Kaggle and preprocessed data.
