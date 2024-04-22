@@ -16,6 +16,6 @@ For this project, I used synthetic datasets which consists of GRE scores, GPA, t
 
 In this project, I developed a Convoluional Neural network to classify gray-scale images of clothings. I used the open dataset that are already pre-processed provided by keras. I used convolution layers to extract features from the images and pooling layers to retain important information.
 
-## Project3.
+## Project3. Cat vs. Dog Image Classification
 
-This project features a model that classifies images into cat vs. dogs on google collab. I downloaded data from Kaggle and preprocessed data.
+This project features a deep learning model that classifies images as either cats or dogs. I utilized a dataset from Kaggle and preprocessed the data with keras to prepare the data. Additionaly, to prevent overfitting and enhance the model's generalizability, I used On-the-fly image augmentation strategies.
