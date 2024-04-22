@@ -4,11 +4,6 @@ This repository contains mini projects in deep learning that I have done while s
 
 ## Saving and Loading Models
 
-Below is an example of how to save the entire model to a directory and then load it:
-In order to save the model, we can either save the entire model or checkpoints.
-
-## Saving and Loading Models
-
 TensorFlow allows you to save and load your models in a few different ways. Below is an example of how to save the entire model to a directory and then load it:
 
 ```python
@@ -24,12 +19,13 @@ Another way is to save checkpoints every epoch:
 # call back function
 checkpointFunc = tf.keras.callbacks.Modelcheckpoint(
     filepath='chekcpoint/mnist',
+    mointor = 'val_acc',
+    mode='max'
     save_weights_only = True,
     save_freq='epoch'
 )
 # add the checkpointFunc in model.fit
-model.fit(train_x, train_y, epochs=5, callbacks = {checkpointFunc})
-
+model.fit(train_x, train_y, epochs=5, callbacks = [checkpointFunc])
 ```
 
 ---
