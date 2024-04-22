@@ -2,6 +2,33 @@
 
 This repository contains mini projects in deep learning that I have done while studying the concepts using tensorFlow.
 
+## Saving and Loading Models
+
+Below is an example of how to save the entire model to a directory and then load it:
+In order to save the model, we can either save the entire model or checkpoints.
+
+Certainly! Here's the entire raw content for the README file as you requested, formatted with Markdown for GitHub:
+
+markdown
+Copy code
+
+# Deep Learning Mini Projects
+
+This repository contains mini-projects in deep learning that I have completed while exploring various concepts using TensorFlow.
+
+## Saving and Loading Models
+
+TensorFlow allows you to save and load your models in a few different ways. Below is an example of how to save the entire model to a directory and then load it:
+
+```python
+# Save the model
+model.save('folder route/model1')
+# Load the model
+model01 = tf.keras.models.load_model('folder route/model1')
+```
+
+Another way is to save checkpoints.
+
 ---
 
 ## Project1. Gradschool Acceptance Prediction Model
