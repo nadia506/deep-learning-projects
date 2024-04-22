@@ -4,7 +4,7 @@ This repository contains mini projects in deep learning that I have done while s
 
 ## Saving and Loading Models
 
-TensorFlow allows you to save and load your models in a few different ways. Below is an example of how to save the entire model to a directory and then load it:
+Below is an example of how to save the entire model to a directory and then load it:
 
 ```python
 # Save the model
