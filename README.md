@@ -47,3 +47,9 @@ In this project, I developed a Convoluional Neural network to classify gray-scal
 [Source Code](https://github.com/nadia506/deep-learning-projects/tree/main/Image-Classification-CatDog)
 
 This project features a deep learning model that classifies images as either cats or dogs. I utilized a dataset from Kaggle and preprocessed the data with keras to prepare the data. Additionaly, to prevent overfitting and enhance the model's generalizability, I used On-the-fly image augmentation strategies. The project was done on Google Colaboratory to accommodate the large data size.
+
+## Project4. Composition AI
+
+[Source Code]()
+
+This project features a deep learning model that composes a classic music using RNN (Recurrent Neural Network)
