@@ -50,6 +50,6 @@ This project features a deep learning model that classifies images as either cat
 
 ## Project4. Composition AI
 
-[Source Code]()
+[Source Code](https://github.com/nadia506/deep-learning-projects/tree/main/Composition-AI)
 
-This project features a deep learning model that composes a classic music using RNN (Recurrent Neural Network)
+This project involves a deep learning model that utilizes a Recurrent Neural Network (RNN) to compose classical piano music. The training data comprises classical piano melodies written in ABC notation. For accurate results, the model should be trained for at least 40 epochs. To listen to the music created by the model, you can copy the output into this website: [check out your music](http://www.tradtunedb.org.uk/#/editor)
