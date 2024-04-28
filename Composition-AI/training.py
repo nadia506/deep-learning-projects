@@ -52,6 +52,9 @@ first_input = tf.expand_dims(first_input, axis =0)
 for i in range(200):
     predicted = model.predict(first_input)
     predicted = model = np.argmax(predicted[0])
+
+    #if stuck in the same notes, use this predicted value
+    #new_predicted = np.random.choice(text_element, 1, p= predicted[0])
     
     music.append(predicted)
 
