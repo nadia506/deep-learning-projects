@@ -53,3 +53,9 @@ This project features a deep learning model that classifies images as either cat
 [Source Code](https://github.com/nadia506/deep-learning-projects/tree/main/Composition-AI)
 
 This project involves a deep learning model that utilizes a Recurrent Neural Network (RNN) to compose classical piano music. The training data comprises classical piano melodies written in ABC notation. For accurate results, the model should be trained for at least 40 epochs. To listen to the music created by the model, you can copy the output into this website: [check out your music](http://www.tradtunedb.org.uk/#/editor)
+
+## Project5. Troll Detection
+
+[Source Code]()
+
+This project features a deep learning model that classifiies sentences as either cyber-aggessive or non cyber-aggressive. I utilized a dataset from Kaggle and preprocessed the data by removing digits and non-word charaters. The project was done on Google Colaboratory to accommodate the large data size.
