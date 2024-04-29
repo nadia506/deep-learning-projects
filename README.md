@@ -56,6 +56,6 @@ This project involves a deep learning model that utilizes a Recurrent Neural Net
 
 ## Project5. Troll Detection
 
-[Source Code]()
+[Source Code](https://github.com/nadia506/deep-learning-projects/tree/main/Troll-Detection)
 
-This project features a deep learning model that classifiies sentences as either cyber-aggessive or non cyber-aggressive. I utilized a dataset from Kaggle and preprocessed the data by removing digits and non-word charaters. The project was done on Google Colaboratory to accommodate the large data size.
+This project features a deep learning model that classifiies sentences as either cyber-aggessive or non cyber-aggressive. I utilized a dataset from Kaggle that manually labeld tweets as aggressive or not and preprocessed the data by removing digits and non-word charaters. The project was done on Google Colaboratory to accommodate the large data size.
